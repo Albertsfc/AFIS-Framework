@@ -1,0 +1,422 @@
+date,transaction_id,amount,type,category,description
+2023-01-01,TXN-202301-002,69975.66,revenue,product_sales,Industrial component sales - Batch 2023-01-B
+2023-01-01,TXN-202301-004,38511.55,revenue,product_sales,Industrial component sales - Batch 2023-01-D
+2023-01-01,TXN-202301-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-01-01,TXN-202301-017,1265.61,expense,insurance,Workers compensation and property insurance - monthly
+2023-01-02,TXN-202301-009,13685.18,expense,cogs,Specialty fasteners and hardware
+2023-01-04,TXN-202301-016,1773.12,expense,software,QuickBooks Online subscription
+2023-01-05,TXN-202301-014,3645.22,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-01-08,TXN-202301-003,10910.25,revenue,product_sales,Industrial component sales - Batch 2023-01-C
+2023-01-12,TXN-202301-010,8163.25,expense,cogs,Cutting fluids and machine lubricants
+2023-01-13,TXN-202301-013,11362.09,expense,cogs,Cutting fluids and machine lubricants
+2023-01-14,TXN-202301-012,2419.37,expense,cogs,Raw steel and aluminum stock
+2023-01-15,TXN-202301-005,35006.07,expense,payroll,Bi-weekly payroll - Period 1
+2023-01-19,TXN-202301-001,15547.24,revenue,product_sales,Industrial component sales - Batch 2023-01-A
+2023-01-20,TXN-202301-008,10021.83,expense,cogs,Cutting fluids and machine lubricants
+2023-01-20,TXN-202301-015,2878.38,expense,marketing,Google Ads - industrial components campaign
+2023-01-26,TXN-202301-011,3208.98,expense,cogs,Cutting fluids and machine lubricants
+2023-01-28,TXN-202301-006,35006.07,expense,payroll,Bi-weekly payroll - Period 2
+2023-02-01,TXN-202302-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-02-01,TXN-202302-019,1324.1,expense,insurance,Workers compensation and property insurance - monthly
+2023-02-02,TXN-202302-018,1064.88,expense,software,Microsoft 365 Business Premium
+2023-02-03,TXN-202302-013,3274.15,expense,cogs,Cutting fluids and machine lubricants
+2023-02-04,TXN-202302-014,3134.4,expense,cogs,Specialty fasteners and hardware
+2023-02-09,TXN-202302-004,46648.8,revenue,product_sales,Custom machined parts order
+2023-02-10,TXN-202302-016,3240.55,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-02-12,TXN-202302-002,8386.42,revenue,product_sales,Industrial component sales - Batch 2023-02-B
+2023-02-12,TXN-202302-003,9713.95,revenue,product_sales,Industrial component sales - Batch 2023-02-C
+2023-02-15,TXN-202302-001,10494.96,revenue,product_sales,Industrial component sales - Batch 2023-02-A
+2023-02-15,TXN-202302-007,34369.49,expense,payroll,Bi-weekly payroll - Period 1
+2023-02-17,TXN-202302-017,2348.23,expense,marketing,LinkedIn sponsored content - B2B outreach
+2023-02-20,TXN-202302-006,33611.15,revenue,product_sales,Industrial component sales - Batch 2023-02-F
+2023-02-20,TXN-202302-015,9388.61,expense,cogs,Hydraulic fittings and seals
+2023-02-22,TXN-202302-005,28704.75,revenue,product_sales,Industrial component sales - Batch 2023-02-E
+2023-02-22,TXN-202302-010,11273.48,expense,cogs,Hydraulic fittings and seals
+2023-02-23,TXN-202302-011,10055.72,expense,cogs,Cutting fluids and machine lubricants
+2023-02-26,TXN-202302-012,8913.43,expense,cogs,Raw steel and aluminum stock
+2023-02-28,TXN-202302-008,34369.49,expense,payroll,Bi-weekly payroll - Period 2
+2023-03-01,TXN-202303-005,42641.1,revenue,product_sales,Industrial component sales - Batch 2023-03-E
+2023-03-01,TXN-202303-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-03-01,TXN-202303-018,1279.68,expense,insurance,Workers compensation and property insurance - monthly
+2023-03-04,TXN-202303-006,22358.18,revenue,product_sales,Industrial component sales - Batch 2023-03-F
+2023-03-05,TXN-202303-013,6380.17,expense,cogs,Hydraulic fittings and seals
+2023-03-05,TXN-202303-017,1753.5,expense,software,QuickBooks Online subscription
+2023-03-06,TXN-202303-015,3510.73,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-03-08,TXN-202303-016,1551.53,expense,marketing,Print catalog production and mailing
+2023-03-11,TXN-202303-014,16659.56,expense,cogs,Hydraulic fittings and seals
+2023-03-13,TXN-202303-002,7529.32,revenue,product_sales,Industrial component sales - Batch 2023-03-B
+2023-03-15,TXN-202303-003,18055.3,revenue,product_sales,Industrial component sales - Batch 2023-03-C
+2023-03-15,TXN-202303-007,34379.4,expense,payroll,Bi-weekly payroll - Period 1
+2023-03-15,TXN-202303-010,8631.36,expense,cogs,Specialty fasteners and hardware
+2023-03-18,TXN-202303-004,6016.02,revenue,service_fees,Installation and maintenance services
+2023-03-18,TXN-202303-012,6341.96,expense,cogs,Specialty fasteners and hardware
+2023-03-20,TXN-202303-001,47804.63,revenue,product_sales,Industrial component sales - Batch 2023-03-A
+2023-03-25,TXN-202303-011,10508.24,expense,cogs,Hydraulic fittings and seals
+2023-03-28,TXN-202303-008,34379.4,expense,payroll,Bi-weekly payroll - Period 2
+2023-04-01,TXN-202304-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-04-01,TXN-202304-018,1300.69,expense,insurance,Workers compensation and property insurance - monthly
+2023-04-02,TXN-202304-017,870.86,expense,software,Microsoft 365 Business Premium
+2023-04-04,TXN-202304-014,19670.07,expense,cogs,Hydraulic fittings and seals
+2023-04-04,TXN-202304-016,1355.02,expense,marketing,Trade publication advertising - Modern Machine Shop
+2023-04-05,TXN-202304-001,29470.87,revenue,product_sales,Industrial component sales - Batch 2023-04-A
+2023-04-06,TXN-202304-015,3683.54,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-04-09,TXN-202304-011,7129.95,expense,cogs,Raw steel and aluminum stock
+2023-04-09,TXN-202304-013,5151.11,expense,cogs,Raw steel and aluminum stock
+2023-04-12,TXN-202304-019,2455.39,expense,cogs,Forklift repair and safety inspection
+2023-04-14,TXN-202304-004,6241.91,revenue,service_fees,Technical consulting engagement
+2023-04-15,TXN-202304-007,33591.01,expense,payroll,Bi-weekly payroll - Period 1
+2023-04-17,TXN-202304-003,15426.04,revenue,service_fees,Installation and maintenance services
+2023-04-18,TXN-202304-002,11716.39,revenue,product_sales,Industrial component sales - Batch 2023-04-B
+2023-04-18,TXN-202304-005,32855.42,revenue,product_sales,Custom machined parts order
+2023-04-18,TXN-202304-010,13863.64,expense,cogs,Packaging materials and shipping supplies
+2023-04-20,TXN-202304-012,7604.52,expense,cogs,Welding rods and consumables
+2023-04-23,TXN-202304-006,44974.19,revenue,product_sales,Industrial component sales - Batch 2023-04-F
+2023-04-28,TXN-202304-008,33591.01,expense,payroll,Bi-weekly payroll - Period 2
+2023-05-01,TXN-202305-008,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-05-01,TXN-202305-018,1146.44,expense,insurance,Workers compensation and property insurance - monthly
+2023-05-05,TXN-202305-017,1223.01,expense,software,CRM platform monthly subscription
+2023-05-06,TXN-202305-005,19838.22,revenue,product_sales,Industrial component sales - Batch 2023-05-E
+2023-05-07,TXN-202305-003,17020.13,revenue,product_sales,Industrial component sales - Batch 2023-05-C
+2023-05-07,TXN-202305-014,12796.85,expense,cogs,Packaging materials and shipping supplies
+2023-05-08,TXN-202305-015,2803.02,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-05-14,TXN-202305-013,3268.23,expense,cogs,Raw steel and aluminum stock
+2023-05-15,TXN-202305-004,66915.69,revenue,product_sales,Industrial component sales - Batch 2023-05-D
+2023-05-15,TXN-202305-006,33374.32,expense,payroll,Bi-weekly payroll - Period 1
+2023-05-15,TXN-202305-019,4728.66,expense,professional_services,Annual CPA audit and tax preparation
+2023-05-17,TXN-202305-012,3807.06,expense,cogs,Packaging materials and shipping supplies
+2023-05-17,TXN-202305-016,1809.97,expense,marketing,Trade publication advertising - Modern Machine Shop
+2023-05-19,TXN-202305-009,21212.34,expense,cogs,Raw steel and aluminum stock
+2023-05-19,TXN-202305-010,6351.21,expense,cogs,Raw steel and aluminum stock
+2023-05-24,TXN-202305-001,19506.59,revenue,product_sales,Industrial component sales - Batch 2023-05-A
+2023-05-26,TXN-202305-011,12825.69,expense,cogs,Specialty fasteners and hardware
+2023-05-28,TXN-202305-002,37246.89,revenue,product_sales,Industrial component sales - Batch 2023-05-B
+2023-05-28,TXN-202305-007,33374.32,expense,payroll,Bi-weekly payroll - Period 2
+2023-06-01,TXN-202306-008,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-06-01,TXN-202306-016,1363.78,expense,insurance,Workers compensation and property insurance - monthly
+2023-06-03,TXN-202306-003,8797.32,revenue,product_sales,Industrial component sales - Batch 2023-06-C
+2023-06-03,TXN-202306-015,1065.2,expense,software,QuickBooks Online subscription
+2023-06-04,TXN-202306-011,11950.64,expense,cogs,Raw steel and aluminum stock
+2023-06-05,TXN-202306-013,4197.84,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-06-06,TXN-202306-009,12537.99,expense,cogs,Hydraulic fittings and seals
+2023-06-09,TXN-202306-014,1368.5,expense,marketing,Print catalog production and mailing
+2023-06-11,TXN-202306-005,18231.93,revenue,service_fees,Technical consulting engagement
+2023-06-15,TXN-202306-006,33214.91,expense,payroll,Bi-weekly payroll - Period 1
+2023-06-16,TXN-202306-010,14136.43,expense,cogs,Cutting fluids and machine lubricants
+2023-06-16,TXN-202306-012,19312.92,expense,cogs,Welding rods and consumables
+2023-06-19,TXN-202306-001,34192.94,revenue,product_sales,Industrial component sales - Batch 2023-06-A
+2023-06-19,TXN-202306-004,32089.32,revenue,product_sales,Industrial component sales - Batch 2023-06-D
+2023-06-20,TXN-202306-002,66309.77,revenue,product_sales,Industrial component sales - Batch 2023-06-B
+2023-06-28,TXN-202306-007,33214.91,expense,payroll,Bi-weekly payroll - Period 2
+2023-07-01,TXN-202307-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-07-01,TXN-202307-015,809.67,expense,software,CAD/CAM software license - SolidWorks
+2023-07-01,TXN-202307-016,1263.68,expense,insurance,Workers compensation and property insurance - monthly
+2023-07-04,TXN-202307-001,34385.55,revenue,product_sales,Custom machined parts order
+2023-07-05,TXN-202307-002,15038.58,revenue,product_sales,Industrial component sales - Batch 2023-07-B
+2023-07-08,TXN-202307-013,3026.21,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-07-10,TXN-202307-010,17519.12,expense,cogs,Raw steel and aluminum stock
+2023-07-11,TXN-202307-004,39674.71,revenue,product_sales,Industrial component sales - Batch 2023-07-D
+2023-07-15,TXN-202307-007,35668.68,expense,payroll,Bi-weekly payroll - Period 1
+2023-07-16,TXN-202307-014,2468.86,expense,marketing,Print catalog production and mailing
+2023-07-17,TXN-202307-006,19689.55,revenue,product_sales,Industrial component sales - Batch 2023-07-F
+2023-07-20,TXN-202307-003,5611.17,revenue,product_sales,Industrial component sales - Batch 2023-07-C
+2023-07-21,TXN-202307-005,38729.25,revenue,service_fees,Installation and maintenance services
+2023-07-22,TXN-202307-012,33332.69,expense,cogs,Cutting fluids and machine lubricants
+2023-07-26,TXN-202307-011,5923.18,expense,cogs,Specialty fasteners and hardware
+2023-07-28,TXN-202307-008,35668.68,expense,payroll,Bi-weekly payroll - Period 2
+2023-08-01,TXN-202308-008,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-08-01,TXN-202308-018,1198.48,expense,insurance,Workers compensation and property insurance - monthly
+2023-08-02,TXN-202308-017,823.66,expense,software,CRM platform monthly subscription
+2023-08-03,TXN-202308-013,3046.07,expense,cogs,Packaging materials and shipping supplies
+2023-08-08,TXN-202308-005,35311.13,revenue,service_fees,Installation and maintenance services
+2023-08-08,TXN-202308-015,3943.22,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-08-09,TXN-202308-014,14161.02,expense,cogs,Specialty fasteners and hardware
+2023-08-10,TXN-202308-016,2004.21,expense,marketing,LinkedIn sponsored content - B2B outreach
+2023-08-15,TXN-202308-006,35916.72,expense,payroll,Bi-weekly payroll - Period 1
+2023-08-15,TXN-202308-010,18298.93,expense,cogs,Hydraulic fittings and seals
+2023-08-20,TXN-202308-004,22940.56,revenue,product_sales,Custom machined parts order
+2023-08-22,TXN-202308-001,14901.42,revenue,product_sales,Industrial component sales - Batch 2023-08-A
+2023-08-25,TXN-202308-002,32348.96,revenue,product_sales,Industrial component sales - Batch 2023-08-B
+2023-08-25,TXN-202308-009,9801.36,expense,cogs,Cutting fluids and machine lubricants
+2023-08-27,TXN-202308-011,12682.41,expense,cogs,Specialty fasteners and hardware
+2023-08-27,TXN-202308-012,4760.38,expense,cogs,Hydraulic fittings and seals
+2023-08-28,TXN-202308-003,64715.78,revenue,product_sales,Industrial component sales - Batch 2023-08-C
+2023-08-28,TXN-202308-007,35916.72,expense,payroll,Bi-weekly payroll - Period 2
+2023-09-01,TXN-202309-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-09-01,TXN-202309-017,1303.2,expense,insurance,Workers compensation and property insurance - monthly
+2023-09-02,TXN-202309-001,26409.86,revenue,product_sales,Industrial component sales - Batch 2023-09-A
+2023-09-04,TXN-202309-005,47833.44,revenue,product_sales,Industrial component sales - Batch 2023-09-E
+2023-09-04,TXN-202309-010,15469.46,expense,cogs,Hydraulic fittings and seals
+2023-09-04,TXN-202309-016,927.29,expense,software,CRM platform monthly subscription
+2023-09-05,TXN-202309-012,9534.59,expense,cogs,Hydraulic fittings and seals
+2023-09-08,TXN-202309-014,3233.0,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-09-11,TXN-202309-013,20652.78,expense,cogs,Welding rods and consumables
+2023-09-12,TXN-202309-015,1950.22,expense,marketing,Print catalog production and mailing
+2023-09-14,TXN-202309-002,34233.01,revenue,product_sales,Industrial component sales - Batch 2023-09-B
+2023-09-15,TXN-202309-007,32655.35,expense,payroll,Bi-weekly payroll - Period 1
+2023-09-19,TXN-202309-006,34813.02,revenue,product_sales,Industrial component sales - Batch 2023-09-F
+2023-09-20,TXN-202309-004,31397.81,revenue,other_income,Scrap metal recycling revenue
+2023-09-21,TXN-202309-011,18517.07,expense,cogs,Cutting fluids and machine lubricants
+2023-09-26,TXN-202309-003,10699.0,revenue,product_sales,Industrial component sales - Batch 2023-09-C
+2023-09-28,TXN-202309-008,32655.35,expense,payroll,Bi-weekly payroll - Period 2
+2023-10-01,TXN-202310-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-10-01,TXN-202310-017,1692.66,expense,software,CRM platform monthly subscription
+2023-10-01,TXN-202310-018,1165.65,expense,insurance,Workers compensation and property insurance - monthly
+2023-10-07,TXN-202310-016,2119.2,expense,marketing,Google Ads - industrial components campaign
+2023-10-08,TXN-202310-010,12647.84,expense,cogs,Specialty fasteners and hardware
+2023-10-08,TXN-202310-014,21093.18,expense,cogs,Hydraulic fittings and seals
+2023-10-08,TXN-202310-015,3774.9,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-10-09,TXN-202310-011,7602.65,expense,cogs,Packaging materials and shipping supplies
+2023-10-15,TXN-202310-007,35364.48,expense,payroll,Bi-weekly payroll - Period 1
+2023-10-16,TXN-202310-002,45593.07,revenue,product_sales,Custom machined parts order
+2023-10-17,TXN-202310-005,16329.5,revenue,product_sales,Industrial component sales - Batch 2023-10-E
+2023-10-20,TXN-202310-006,19210.29,revenue,product_sales,Industrial component sales - Batch 2023-10-F
+2023-10-22,TXN-202310-001,33865.15,revenue,product_sales,Industrial component sales - Batch 2023-10-A
+2023-10-22,TXN-202310-004,11664.9,revenue,product_sales,Industrial component sales - Batch 2023-10-D
+2023-10-22,TXN-202310-013,7560.35,expense,cogs,Welding rods and consumables
+2023-10-26,TXN-202310-003,41386.68,revenue,product_sales,Custom machined parts order
+2023-10-26,TXN-202310-012,12445.56,expense,cogs,Raw steel and aluminum stock
+2023-10-28,TXN-202310-008,35364.48,expense,payroll,Bi-weekly payroll - Period 2
+2023-11-01,TXN-202311-010,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-11-01,TXN-202311-019,1357.02,expense,insurance,Workers compensation and property insurance - monthly
+2023-11-04,TXN-202311-012,16620.5,expense,cogs,Specialty fasteners and hardware
+2023-11-05,TXN-202311-018,1189.48,expense,software,QuickBooks Online subscription
+2023-11-08,TXN-202311-005,37686.6,revenue,service_fees,Installation and maintenance services
+2023-11-08,TXN-202311-014,4266.4,expense,cogs,Raw steel and aluminum stock
+2023-11-08,TXN-202311-016,3263.23,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-11-09,TXN-202311-006,33485.3,revenue,product_sales,Custom machined parts order
+2023-11-09,TXN-202311-017,2156.28,expense,marketing,Email marketing platform subscription
+2023-11-12,TXN-202311-011,11738.6,expense,cogs,Cutting fluids and machine lubricants
+2023-11-14,TXN-202311-013,5238.51,expense,cogs,Hydraulic fittings and seals
+2023-11-15,TXN-202311-002,23396.12,revenue,service_fees,Installation and maintenance services
+2023-11-15,TXN-202311-004,17786.83,revenue,product_sales,Industrial component sales - Batch 2023-11-D
+2023-11-15,TXN-202311-008,33337.36,expense,payroll,Bi-weekly payroll - Period 1
+2023-11-15,TXN-202311-015,18402.92,expense,cogs,Packaging materials and shipping supplies
+2023-11-17,TXN-202311-007,19608.44,revenue,product_sales,Industrial component sales - Batch 2023-11-G
+2023-11-24,TXN-202311-003,12190.66,revenue,service_fees,Installation and maintenance services
+2023-11-27,TXN-202311-001,18283.03,revenue,service_fees,Installation and maintenance services
+2023-11-28,TXN-202311-009,33337.36,expense,payroll,Bi-weekly payroll - Period 2
+2023-12-01,TXN-202312-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2023-12-01,TXN-202312-015,1328.37,expense,insurance,Workers compensation and property insurance - monthly
+2023-12-03,TXN-202312-014,1011.66,expense,software,Microsoft 365 Business Premium
+2023-12-04,TXN-202312-010,5968.11,expense,cogs,Hydraulic fittings and seals
+2023-12-06,TXN-202312-012,4013.59,expense,utilities,"Electric, gas, and water - Dayton facility"
+2023-12-13,TXN-202312-003,14657.39,revenue,product_sales,Industrial component sales - Batch 2023-12-C
+2023-12-14,TXN-202312-002,45437.98,revenue,product_sales,Industrial component sales - Batch 2023-12-B
+2023-12-15,TXN-202312-005,35034.63,expense,payroll,Bi-weekly payroll - Period 1
+2023-12-15,TXN-202312-011,12933.27,expense,cogs,Specialty fasteners and hardware
+2023-12-15,TXN-202312-013,1315.65,expense,marketing,Trade publication advertising - Modern Machine Shop
+2023-12-16,TXN-202312-001,15704.96,revenue,product_sales,Industrial component sales - Batch 2023-12-A
+2023-12-19,TXN-202312-008,19814.75,expense,cogs,Raw steel and aluminum stock
+2023-12-20,TXN-202312-009,11424.88,expense,cogs,Welding rods and consumables
+2023-12-22,TXN-202312-004,59558.49,revenue,product_sales,Custom machined parts order
+2023-12-28,TXN-202312-006,35034.63,expense,payroll,Bi-weekly payroll - Period 2
+2024-01-01,TXN-202401-010,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-01-01,TXN-202401-018,1338.87,expense,insurance,Workers compensation and property insurance - monthly
+2024-01-03,TXN-202401-017,1497.19,expense,software,QuickBooks Online subscription
+2024-01-05,TXN-202401-002,11234.05,revenue,product_sales,Industrial component sales - Batch 2024-01-B
+2024-01-05,TXN-202401-011,18612.38,expense,cogs,Welding rods and consumables
+2024-01-10,TXN-202401-015,2906.4,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-01-10,TXN-202401-016,3110.31,expense,marketing,Google Ads - industrial components campaign
+2024-01-11,TXN-202401-012,4531.11,expense,cogs,Welding rods and consumables
+2024-01-14,TXN-202401-013,7803.5,expense,cogs,Packaging materials and shipping supplies
+2024-01-15,TXN-202401-005,38760.04,revenue,product_sales,Industrial component sales - Batch 2024-01-E
+2024-01-15,TXN-202401-008,36171.27,expense,payroll,Bi-weekly payroll - Period 1
+2024-01-16,TXN-202401-003,22525.91,revenue,product_sales,Industrial component sales - Batch 2024-01-C
+2024-01-19,TXN-202401-004,25684.21,revenue,service_fees,Technical consulting engagement
+2024-01-20,TXN-202401-007,8944.04,revenue,product_sales,Industrial component sales - Batch 2024-01-G
+2024-01-24,TXN-202401-014,16633.08,expense,cogs,Specialty fasteners and hardware
+2024-01-25,TXN-202401-006,23736.45,revenue,product_sales,Industrial component sales - Batch 2024-01-F
+2024-01-27,TXN-202401-001,14677.1,revenue,product_sales,Industrial component sales - Batch 2024-01-A
+2024-01-28,TXN-202401-009,36171.27,expense,payroll,Bi-weekly payroll - Period 2
+2024-02-01,TXN-202402-010,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-02-01,TXN-202402-020,1293.77,expense,insurance,Workers compensation and property insurance - monthly
+2024-02-02,TXN-202402-019,1355.18,expense,software,CRM platform monthly subscription
+2024-02-06,TXN-202402-017,2814.21,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-02-10,TXN-202402-016,11533.08,expense,cogs,Welding rods and consumables
+2024-02-12,TXN-202402-013,3861.71,expense,cogs,Specialty fasteners and hardware
+2024-02-13,TXN-202402-014,5630.18,expense,cogs,Cutting fluids and machine lubricants
+2024-02-14,TXN-202402-005,35179.72,revenue,service_fees,Installation and maintenance services
+2024-02-14,TXN-202402-012,10659.77,expense,cogs,Cutting fluids and machine lubricants
+2024-02-15,TXN-202402-008,36844.31,expense,payroll,Bi-weekly payroll - Period 1
+2024-02-16,TXN-202402-011,9419.32,expense,cogs,Welding rods and consumables
+2024-02-16,TXN-202402-018,1396.91,expense,marketing,Email marketing platform subscription
+2024-02-19,TXN-202402-006,22518.32,revenue,product_sales,Industrial component sales - Batch 2024-02-F
+2024-02-21,TXN-202402-002,35187.39,revenue,product_sales,Industrial component sales - Batch 2024-02-B
+2024-02-21,TXN-202402-015,3544.51,expense,cogs,Hydraulic fittings and seals
+2024-02-24,TXN-202402-001,10070.44,revenue,product_sales,Industrial component sales - Batch 2024-02-A
+2024-02-25,TXN-202402-004,11419.67,revenue,product_sales,Industrial component sales - Batch 2024-02-D
+2024-02-26,TXN-202402-003,11669.33,revenue,service_fees,Installation and maintenance services
+2024-02-28,TXN-202402-007,6547.44,revenue,product_sales,Industrial component sales - Batch 2024-02-G
+2024-02-28,TXN-202402-009,36844.31,expense,payroll,Bi-weekly payroll - Period 2
+2024-03-01,TXN-202403-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-03-01,TXN-202403-014,1190.68,expense,insurance,Workers compensation and property insurance - monthly
+2024-03-03,TXN-202403-013,1096.25,expense,software,CAD/CAM software license - SolidWorks
+2024-03-06,TXN-202403-012,2572.62,expense,marketing,LinkedIn sponsored content - B2B outreach
+2024-03-08,TXN-202403-009,6836.16,expense,cogs,Hydraulic fittings and seals
+2024-03-09,TXN-202403-011,3814.42,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-03-10,TXN-202403-004,16790.92,revenue,product_sales,Industrial component sales - Batch 2024-03-D
+2024-03-14,TXN-202403-001,27444.8,revenue,other_income,Scrap metal recycling revenue
+2024-03-15,TXN-202403-005,33909.96,expense,payroll,Bi-weekly payroll - Period 1
+2024-03-17,TXN-202403-010,27991.14,expense,cogs,Cutting fluids and machine lubricants
+2024-03-18,TXN-202403-002,87613.14,revenue,product_sales,Industrial component sales - Batch 2024-03-B
+2024-03-23,TXN-202403-003,26280.75,revenue,product_sales,Industrial component sales - Batch 2024-03-C
+2024-03-26,TXN-202403-008,17601.37,expense,cogs,Hydraulic fittings and seals
+2024-03-28,TXN-202403-006,33909.96,expense,payroll,Bi-weekly payroll - Period 2
+2024-04-01,TXN-202404-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-04-01,TXN-202404-014,1332.71,expense,insurance,Workers compensation and property insurance - monthly
+2024-04-03,TXN-202404-010,29777.86,expense,cogs,Specialty fasteners and hardware
+2024-04-04,TXN-202404-001,51364.37,revenue,service_fees,Installation and maintenance services
+2024-04-04,TXN-202404-013,918.45,expense,software,CAD/CAM software license - SolidWorks
+2024-04-05,TXN-202404-012,3382.99,expense,marketing,LinkedIn sponsored content - B2B outreach
+2024-04-06,TXN-202404-004,23389.69,revenue,service_fees,Technical consulting engagement
+2024-04-09,TXN-202404-011,3008.88,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-04-14,TXN-202404-008,19756.65,expense,cogs,Packaging materials and shipping supplies
+2024-04-15,TXN-202404-005,34385.18,expense,payroll,Bi-weekly payroll - Period 1
+2024-04-16,TXN-202404-003,20506.95,revenue,product_sales,Industrial component sales - Batch 2024-04-C
+2024-04-19,TXN-202404-002,54239.27,revenue,product_sales,Industrial component sales - Batch 2024-04-B
+2024-04-22,TXN-202404-009,6035.24,expense,cogs,Hydraulic fittings and seals
+2024-04-28,TXN-202404-006,34385.18,expense,payroll,Bi-weekly payroll - Period 2
+2024-05-01,TXN-202405-004,41126.59,revenue,product_sales,Industrial component sales - Batch 2024-05-D
+2024-05-01,TXN-202405-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-05-01,TXN-202405-019,1382.8,expense,insurance,Workers compensation and property insurance - monthly
+2024-05-03,TXN-202405-018,924.35,expense,software,CRM platform monthly subscription
+2024-05-04,TXN-202405-015,14461.55,expense,cogs,Raw steel and aluminum stock
+2024-05-06,TXN-202405-002,11956.06,revenue,product_sales,Industrial component sales - Batch 2024-05-B
+2024-05-07,TXN-202405-016,3032.29,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-05-08,TXN-202405-012,9976.23,expense,cogs,Packaging materials and shipping supplies
+2024-05-09,TXN-202405-001,16235.14,revenue,product_sales,Industrial component sales - Batch 2024-05-A
+2024-05-09,TXN-202405-010,9769.11,expense,cogs,Cutting fluids and machine lubricants
+2024-05-09,TXN-202405-013,3871.34,expense,cogs,Hydraulic fittings and seals
+2024-05-10,TXN-202405-006,35411.97,revenue,product_sales,Industrial component sales - Batch 2024-05-F
+2024-05-10,TXN-202405-014,3331.75,expense,cogs,Specialty fasteners and hardware
+2024-05-12,TXN-202405-017,2568.6,expense,marketing,Email marketing platform subscription
+2024-05-15,TXN-202405-007,34513.62,expense,payroll,Bi-weekly payroll - Period 1
+2024-05-18,TXN-202405-003,13617.48,revenue,product_sales,Industrial component sales - Batch 2024-05-C
+2024-05-22,TXN-202405-011,16810.57,expense,cogs,Welding rods and consumables
+2024-05-23,TXN-202405-005,54432.96,revenue,product_sales,Industrial component sales - Batch 2024-05-E
+2024-05-28,TXN-202405-008,34513.62,expense,payroll,Bi-weekly payroll - Period 2
+2024-06-01,TXN-202406-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-06-01,TXN-202406-015,1298.78,expense,insurance,Workers compensation and property insurance - monthly
+2024-06-04,TXN-202406-014,1211.65,expense,software,Microsoft 365 Business Premium
+2024-06-07,TXN-202406-009,14926.65,expense,cogs,Welding rods and consumables
+2024-06-07,TXN-202406-012,3371.69,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-06-08,TXN-202406-001,40349.28,revenue,service_fees,Technical consulting engagement
+2024-06-08,TXN-202406-013,2741.31,expense,marketing,Trade publication advertising - Modern Machine Shop
+2024-06-15,TXN-202406-005,34446.59,expense,payroll,Bi-weekly payroll - Period 1
+2024-06-17,TXN-202406-010,6333.34,expense,cogs,Raw steel and aluminum stock
+2024-06-17,TXN-202406-011,18122.42,expense,cogs,Cutting fluids and machine lubricants
+2024-06-19,TXN-202406-003,41614.2,revenue,service_fees,Technical consulting engagement
+2024-06-22,TXN-202406-008,14391.16,expense,cogs,Packaging materials and shipping supplies
+2024-06-25,TXN-202406-004,24058.01,revenue,product_sales,Industrial component sales - Batch 2024-06-D
+2024-06-27,TXN-202406-002,60762.76,revenue,service_fees,Installation and maintenance services
+2024-06-28,TXN-202406-006,34446.59,expense,payroll,Bi-weekly payroll - Period 2
+2024-07-01,TXN-202407-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-07-01,TXN-202407-014,893.21,expense,software,CRM platform monthly subscription
+2024-07-01,TXN-202407-015,1384.12,expense,insurance,Workers compensation and property insurance - monthly
+2024-07-06,TXN-202407-008,14175.81,expense,cogs,Cutting fluids and machine lubricants
+2024-07-07,TXN-202407-003,20889.2,revenue,product_sales,Industrial component sales - Batch 2024-07-C
+2024-07-07,TXN-202407-012,3793.7,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-07-15,TXN-202407-002,38227.23,revenue,product_sales,Industrial component sales - Batch 2024-07-B
+2024-07-15,TXN-202407-005,35729.6,expense,payroll,Bi-weekly payroll - Period 1
+2024-07-20,TXN-202407-004,94636.63,revenue,product_sales,Custom machined parts order
+2024-07-20,TXN-202407-013,2466.93,expense,marketing,Email marketing platform subscription
+2024-07-22,TXN-202407-001,25124.22,revenue,service_fees,Installation and maintenance services
+2024-07-22,TXN-202407-010,6840.58,expense,cogs,Welding rods and consumables
+2024-07-24,TXN-202407-009,13293.5,expense,cogs,Packaging materials and shipping supplies
+2024-07-27,TXN-202407-011,31087.54,expense,cogs,Specialty fasteners and hardware
+2024-07-28,TXN-202407-006,35729.6,expense,payroll,Bi-weekly payroll - Period 2
+2024-08-01,TXN-202408-009,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-08-01,TXN-202408-019,1389.45,expense,insurance,Workers compensation and property insurance - monthly
+2024-08-02,TXN-202408-018,1788.41,expense,software,CRM platform monthly subscription
+2024-08-08,TXN-202408-013,7458.46,expense,cogs,Hydraulic fittings and seals
+2024-08-10,TXN-202408-016,2861.11,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-08-12,TXN-202408-011,10979.11,expense,cogs,Welding rods and consumables
+2024-08-14,TXN-202408-003,38222.76,revenue,product_sales,Industrial component sales - Batch 2024-08-C
+2024-08-14,TXN-202408-012,10058.49,expense,cogs,Packaging materials and shipping supplies
+2024-08-14,TXN-202408-014,2517.36,expense,cogs,Specialty fasteners and hardware
+2024-08-15,TXN-202408-007,35590.91,expense,payroll,Bi-weekly payroll - Period 1
+2024-08-15,TXN-202408-017,2287.85,expense,marketing,Email marketing platform subscription
+2024-08-16,TXN-202408-010,23412.22,expense,cogs,Welding rods and consumables
+2024-08-19,TXN-202408-020,2749.28,expense,professional_services,Legal review - vendor contract renewal
+2024-08-19,TXN-202408-021,1523.02,expense,professional_services,HR compliance consulting
+2024-08-24,TXN-202408-006,7877.66,revenue,product_sales,Industrial component sales - Batch 2024-08-F
+2024-08-25,TXN-202408-002,33372.1,revenue,product_sales,Custom machined parts order
+2024-08-26,TXN-202408-004,25789.82,revenue,product_sales,Industrial component sales - Batch 2024-08-D
+2024-08-26,TXN-202408-015,9487.14,expense,cogs,Packaging materials and shipping supplies
+2024-08-27,TXN-202408-005,21885.96,revenue,product_sales,Industrial component sales - Batch 2024-08-E
+2024-08-28,TXN-202408-001,41072.37,revenue,product_sales,Industrial component sales - Batch 2024-08-A
+2024-08-28,TXN-202408-008,35590.91,expense,payroll,Bi-weekly payroll - Period 2
+2024-09-01,TXN-202409-008,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-09-01,TXN-202409-018,1285.91,expense,insurance,Workers compensation and property insurance - monthly
+2024-09-03,TXN-202409-004,20469.78,revenue,product_sales,Industrial component sales - Batch 2024-09-D
+2024-09-05,TXN-202409-010,12414.62,expense,cogs,Packaging materials and shipping supplies
+2024-09-05,TXN-202409-017,975.07,expense,software,CRM platform monthly subscription
+2024-09-06,TXN-202409-014,13514.33,expense,cogs,Specialty fasteners and hardware
+2024-09-08,TXN-202409-016,2768.14,expense,marketing,LinkedIn sponsored content - B2B outreach
+2024-09-09,TXN-202409-015,3543.63,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-09-11,TXN-202409-001,66439.27,revenue,product_sales,Industrial component sales - Batch 2024-09-A
+2024-09-11,TXN-202409-011,4918.19,expense,cogs,Raw steel and aluminum stock
+2024-09-13,TXN-202409-013,3886.29,expense,cogs,Packaging materials and shipping supplies
+2024-09-15,TXN-202409-006,37070.72,expense,payroll,Bi-weekly payroll - Period 1
+2024-09-18,TXN-202409-003,44888.99,revenue,product_sales,Industrial component sales - Batch 2024-09-C
+2024-09-19,TXN-202409-019,9465.33,expense,cogs,Equipment maintenance - CNC mill overhaul
+2024-09-22,TXN-202409-005,22838.61,revenue,service_fees,Technical consulting engagement
+2024-09-25,TXN-202409-002,17802.77,revenue,product_sales,Industrial component sales - Batch 2024-09-B
+2024-09-26,TXN-202409-009,24822.09,expense,cogs,Hydraulic fittings and seals
+2024-09-27,TXN-202409-012,3351.41,expense,cogs,Raw steel and aluminum stock
+2024-09-28,TXN-202409-007,37070.72,expense,payroll,Bi-weekly payroll - Period 2
+2024-10-01,TXN-202410-007,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-10-01,TXN-202410-017,1286.27,expense,insurance,Workers compensation and property insurance - monthly
+2024-10-02,TXN-202410-016,1601.93,expense,software,CAD/CAM software license - SolidWorks
+2024-10-03,TXN-202410-012,7798.79,expense,cogs,Welding rods and consumables
+2024-10-07,TXN-202410-014,3965.97,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-10-10,TXN-202410-002,76150.32,revenue,product_sales,Industrial component sales - Batch 2024-10-B
+2024-10-10,TXN-202410-015,2984.2,expense,marketing,Print catalog production and mailing
+2024-10-11,TXN-202410-009,11767.56,expense,cogs,Hydraulic fittings and seals
+2024-10-12,TXN-202410-001,15808.44,revenue,other_income,Scrap metal recycling revenue
+2024-10-14,TXN-202410-003,56427.39,revenue,product_sales,Industrial component sales - Batch 2024-10-C
+2024-10-14,TXN-202410-008,10532.1,expense,cogs,Welding rods and consumables
+2024-10-15,TXN-202410-004,25382.47,revenue,service_fees,Installation and maintenance services
+2024-10-15,TXN-202410-005,34193.18,expense,payroll,Bi-weekly payroll - Period 1
+2024-10-20,TXN-202410-011,6332.39,expense,cogs,Hydraulic fittings and seals
+2024-10-23,TXN-202410-010,8351.87,expense,cogs,Packaging materials and shipping supplies
+2024-10-25,TXN-202410-013,14834.1,expense,cogs,Packaging materials and shipping supplies
+2024-10-28,TXN-202410-006,34193.18,expense,payroll,Bi-weekly payroll - Period 2
+2024-11-01,TXN-202411-008,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-11-01,TXN-202411-016,1064.46,expense,software,CRM platform monthly subscription
+2024-11-01,TXN-202411-017,1210.58,expense,insurance,Workers compensation and property insurance - monthly
+2024-11-04,TXN-202411-011,7038.84,expense,cogs,Specialty fasteners and hardware
+2024-11-05,TXN-202411-004,44433.54,revenue,product_sales,Custom machined parts order
+2024-11-09,TXN-202411-012,6539.09,expense,cogs,Hydraulic fittings and seals
+2024-11-09,TXN-202411-014,4171.92,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-11-10,TXN-202411-002,41845.09,revenue,product_sales,Industrial component sales - Batch 2024-11-B
+2024-11-12,TXN-202411-005,11329.93,revenue,product_sales,Industrial component sales - Batch 2024-11-E
+2024-11-12,TXN-202411-010,13374.31,expense,cogs,Raw steel and aluminum stock
+2024-11-14,TXN-202411-003,22646.16,revenue,product_sales,Industrial component sales - Batch 2024-11-C
+2024-11-15,TXN-202411-006,36768.12,expense,payroll,Bi-weekly payroll - Period 1
+2024-11-15,TXN-202411-015,2041.28,expense,marketing,Google Ads - industrial components campaign
+2024-11-17,TXN-202411-009,24196.53,expense,cogs,Cutting fluids and machine lubricants
+2024-11-24,TXN-202411-001,52596.72,revenue,product_sales,Industrial component sales - Batch 2024-11-A
+2024-11-25,TXN-202411-013,12776.59,expense,cogs,Hydraulic fittings and seals
+2024-11-28,TXN-202411-007,36768.12,expense,payroll,Bi-weekly payroll - Period 2
+2024-12-01,TXN-202412-010,8500.0,expense,rent,"Monthly facility lease - 4200 Industrial Pkwy, Dayton OH"
+2024-12-01,TXN-202412-020,1219.44,expense,insurance,Workers compensation and property insurance - monthly
+2024-12-02,TXN-202412-004,32740.25,revenue,service_fees,Technical consulting engagement
+2024-12-03,TXN-202412-019,1701.7,expense,software,QuickBooks Online subscription
+2024-12-04,TXN-202412-006,8256.88,revenue,product_sales,Industrial component sales - Batch 2024-12-F
+2024-12-05,TXN-202412-017,3997.63,expense,utilities,"Electric, gas, and water - Dayton facility"
+2024-12-07,TXN-202412-021,2260.43,expense,cogs,Forklift repair and safety inspection
+2024-12-08,TXN-202412-015,2852.94,expense,cogs,Packaging materials and shipping supplies
+2024-12-10,TXN-202412-005,28960.77,revenue,other_income,Scrap metal recycling revenue
+2024-12-10,TXN-202412-014,5531.21,expense,cogs,Raw steel and aluminum stock
+2024-12-14,TXN-202412-003,13695.01,revenue,product_sales,Industrial component sales - Batch 2024-12-C
+2024-12-14,TXN-202412-018,3456.13,expense,marketing,Print catalog production and mailing
+2024-12-15,TXN-202412-008,35110.39,expense,payroll,Bi-weekly payroll - Period 1
+2024-12-16,TXN-202412-016,5991.47,expense,cogs,Specialty fasteners and hardware
+2024-12-18,TXN-202412-007,5071.3,revenue,product_sales,Industrial component sales - Batch 2024-12-G
+2024-12-21,TXN-202412-001,8986.59,revenue,service_fees,Installation and maintenance services
+2024-12-21,TXN-202412-013,8031.09,expense,cogs,Packaging materials and shipping supplies
+2024-12-22,TXN-202412-012,13236.07,expense,cogs,Raw steel and aluminum stock
+2024-12-23,TXN-202412-002,43002.63,revenue,product_sales,Industrial component sales - Batch 2024-12-B
+2024-12-25,TXN-202412-011,15046.3,expense,cogs,Specialty fasteners and hardware
+2024-12-28,TXN-202412-009,35110.39,expense,payroll,Bi-weekly payroll - Period 2
