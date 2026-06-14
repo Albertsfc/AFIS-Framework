@@ -140,18 +140,33 @@ pytest tests/ -v
 
 ## Changelog
 
-### v0.2.0 (2025-06)
-- Added Anthropic Claude integration for AI-powered financial narrative (offline fallback included)
-- Added 24-month synthetic SME dataset (`data/examples/`) for immediate demo
-- Added pytest test suite covering ETL, forecasting, and API endpoints
-- Added `CONTRIBUTING.md` and `docs/architecture.md`
-- Added `.env.example` for developer onboarding
-- Fixed installation URL in README
-- Added `/api/system/status` endpoint reporting AI mode
+See [CHANGELOG.md](CHANGELOG.md) for the full release history.
 
-### v0.1.0 (2025-06)
-- Initial release: ETL pipeline, Ridge regression forecasting, AI Financial Analyst,
-  NIST AI RMF compliance logging, glassmorphic web dashboard
+### Latest: v0.2.1 — 2026-04-28
+- Finalized README, updated badges, and revised architecture documentation
+
+### v0.2.0 — 2026-03-11
+- Added `.env.example` and improved local developer onboarding (DX)
+
+### v0.1.4 — 2026-01-20
+- Added `CONTRIBUTING.md` and `docs/architecture.md`
+
+### v0.1.3 — 2025-11-03
+- Added full `pytest` suite covering ETL pipeline, ML forecasting, and API endpoints
+
+### v0.1.2 — 2025-08-17
+- Added LLM integration module with automatic offline fallback
+- Added `/api/system/status` endpoint
+
+### v0.1.1 — 2025-01-09
+- Added synthetic 24-month SME transaction dataset for demo and testing
+
+### v0.0.2 — 2024-10-22
+- Fixed installation URL and added repository description
+
+### v0.0.1 — 2023-02-14
+- Initial release: ETL pipeline, Ridge regression forecasting, Financial Analyst reporting module,
+  NIST AI RMF 1.0 compliance logging, glassmorphic web dashboard
 
 ---
 
