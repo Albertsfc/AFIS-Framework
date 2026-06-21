@@ -8,18 +8,7 @@
 
 > **a suite of open-source tools designed to empower Small and Medium Enterprises (SMEs) with AI-driven financial intelligence.**
 
-AFIS is an open-source financial intelligence framework that solves a specific problem: small businesses generate enough financial data — but almost none of them convert it into forward-looking decisions. AFIS bridges that gap. It ingests raw transactional records, applies machine learning to project cash flow, and surfaces plain-English interpretations through an interactive AI Financial Analyst — running entirely on the business owner's machine, with zero cloud dependency and no recurring subscription cost.
-
----
-
-## The Problem AFIS Solves
-
-> *61% of small businesses have no real-time view of their cash position. 88% experienced an unexpected cash shock in the last year. Only 31% manage cash flow actively.*
-> — Federal Reserve Small Business Credit Survey (2024); QuickBooks State of Small Business Cash Flow (2025)
-
-The issue is not the absence of data. The issue is the absence of **conversion**: transforming raw exports from QuickBooks, Xero, or Wave into visibility, margin analysis, risk indicators, and 30/90/180-day projections — before the crisis, not after.
-
-AFIS addresses this conversion problem directly, for the segment that needs it most: the 33.2 million small businesses that collectively represent 99.9% of all American businesses and nearly half of private-sector employment.
+AFIS is an open-source financial intelligence framework. It ingests raw transactional records, applies machine learning to project cash flow, and surfaces plain-English interpretations through an interactive AI Financial Analyst — running entirely on the business owner's machine, with zero cloud dependency and no recurring subscription cost.
 
 ---
 
@@ -106,7 +95,7 @@ graph TD
 
 **Provider-agnostic LLM layer.** `app/llm_client.py` abstracts the AI provider. Anthropic Claude is the reference implementation; any provider can be substituted.
 
-**NIST AI RMF 1.0 alignment.** Not a certification claim — a design principle. Every ETL action, model run, and AI interaction is logged to a persistent `compliance_logs` table following NIST governance principles: validity, reliability, explainability, and human oversight.
+**NIST AI RMF 1.0 alignment.** Every ETL action, model run, and AI interaction is logged to a persistent `compliance_logs` table following NIST governance principles: validity, reliability, explainability, and human oversight.
 
 ---
 
@@ -115,12 +104,6 @@ graph TD
 AFIS is built for owners and CFOs of small and medium enterprises who need financial intelligence without enterprise software costs — and for the accountants, bookkeepers, and BI consultants who serve them.
 
 **You do not need a data science background.** Export your ledger from QuickBooks or Xero, drop in the CSV, and run `python run.py`. AFIS handles schema validation, model training, and interpretation.
-
-**Target use cases:**
-- **Accounting & advisory firms** — elevate client data from bookkeeping to CFO-level advisory dashboards
-- **Property management** — multi-property revenue/expense tracking, seasonal forecasting, owner reporting
-- **Facility & contract services** — margin-by-contract analysis, cost-center tracking, receivables monitoring
-- **Any SME with a CSV export** — immediate cash flow visibility and forward projections
 
 ---
 
