@@ -6,17 +6,18 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Ridge%20Regression-orange.svg)](https://scikit-learn.org/)
 [![NIST AI RMF](https://img.shields.io/badge/NIST%20AI%20RMF-1.0%20Aligned-blue.svg)](https://airc.nist.gov/RMF)
 
-> **a suite of open-source tools designed to empower Small and Medium Enterprises (SMEs) with AI-driven financial intelligence.**
+> **A suite of open-source tools designed to empower Small and Medium Enterprises (SMEs) with AI-driven financial intelligence.**
 
-AFIS is an open-source financial intelligence framework. It ingests raw transactional records, applies machine learning to project cash flow, and surfaces plain-English interpretations through an interactive AI Financial Analyst — running entirely on the business owner's machine, with zero cloud dependency and no recurring subscription cost.
+AFIS is an open-source financial intelligence framework. It ingests raw transactional records, applies machine learning to project cash flow, and surfaces natural language interpretations through an interactive AI Financial Analyst — running entirely on the business owner's machine, with zero cloud dependency and no recurring subscription cost.
 
 ---
 
 ## How It Works — Three Integrated Layers
 
-![AFIS Three-Layer Architecture](AFIS/docs/images/three_layers.png)
+![AFIS Three-Layer Architecture](docs/images/three_layers.png)
 
 ### Layer 1 — Data Organization (ETL Ingestion)
+
 Receives CSV exports from any accounting system. Validates schema, normalizes dates and currency formats, detects duplicates and statistical anomalies, logs every action to a NIST-aligned governance audit trail, and writes clean records to a local SQLite database.
 
 ```
@@ -25,7 +26,8 @@ Output: Structured transactions table — validated, deduplicated, audit-logged
 ```
 
 ### Layer 2 — Predictive Analytics (ML Forecasting + BI Dashboards)
-Trains Ridge regression models on the structured transaction history to produce 12-month projections of revenue, expenses, and net cash flow — each accompanied by 95% confidence intervals. Exposes burn rate, runway, net margin, and cash position via interactive Chart.js dashboards.
+
+Trains Ridge regression models on the structured transaction history to produce 12-month projections of revenue, expenses, and net cash flow — each accompanied by 95% confidence intervals. Exposes burnrate, runway, net margin, and cash position via interactive Chart.js dashboards.
 
 ```
 Input:  Structured financial database
@@ -33,7 +35,9 @@ Output: 12-month cash flow forecast · burn rate · runway · confidence bounds
 ```
 
 ### Layer 3 — AI Interpretation (Financial Analyst Agent)
+
 Converts processed metrics into natural-language management narratives, flags financial red flags (low runway, negative margin, unusual burn), and provides actionable recommendations. Operates in two modes:
+
 - **LLM Mode**: powered by Anthropic Claude for context-aware narrative generation
 - **Offline Mode**: deterministic rule-based heuristics — no API key required
 
@@ -46,7 +50,7 @@ Output: Plain-English narrative · risk flags · strategic recommendations
 
 ## Technical Architecture
 
-![AFIS System Architecture](AFIS/docs/images/architecture.png)
+![AFIS System Architecture](docs/images/architecture.png)
 
 ```mermaid
 sequenceDiagram
@@ -127,15 +131,15 @@ AFIS is built for owners and CFOs of small and medium enterprises who need finan
 ## Quickstart
 
 ```bash
-git clone https://github.com/Albertsfc/AFIS-Framework.git
-cd AFIS-Framework/AFIS
+git clone https://github.com/afild/AFIS.git
+cd AFIS
 pip install -r requirements.txt
 python run.py
 ```
 
 Open `http://localhost:8000/static/index.html` in your browser.
 
-**Try it with sample data:** the system auto-seeds a synthetic 24-month transaction dataset (`AFIS/data/examples/sample_sme_transactions.csv`) — 421 transactions, ~$1.9M annual revenue, 9% net margin. The ML model trains on it immediately.
+**Try it with sample data:** the system auto-seeds a synthetic 24-month transaction dataset (`data/examples/sample_sme_transactions.csv`) representing a fictional U.S. manufacturer — 421 transactions, ~$1.9M annual revenue, 9% net margin. The ML model trains on it immediately.
 
 ---
 
@@ -167,6 +171,7 @@ curl http://localhost:8000/api/system/status
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.10 or higher
 - Git
 
@@ -174,8 +179,8 @@ curl http://localhost:8000/api/system/status
 
 ```bash
 # 1. Clone
-git clone https://github.com/Albertsfc/AFIS-Framework.git
-cd AFIS-Framework/AFIS
+git clone https://github.com/afild/AFIS.git
+cd AFIS
 
 # 2. Create virtual environment
 python -m venv venv
@@ -216,49 +221,52 @@ The AI Financial Analyst sends only computed aggregate metrics to the LLM API �
 ## Repository Structure
 
 ```
-AFIS-Framework/
-└── AFIS/
-    ├── app/
-    │   ├── main.py                  ← FastAPI app · route registration · static serving
-    │   ├── llm_client.py            ← Provider-agnostic LLM client (Claude + offline fallback)
-    │   ├── ai_agent/
-    │   │   └── analyst.py           ← KPI computation · health report · chat Q&A
-    │   ├── database/
-    │   │   └── db_manager.py        ← SQLite connection · schema init · governance audit logging
-    │   ├── etl/
-    │   │   └── ingestor.py          ← CSV parsing · validation · duplicate detection · anomaly flagging
-    │   └── forecasting/
-    │       └── model.py             ← Ridge regression · 12-month projection · confidence intervals
-    ├── data/
-    │   └── examples/
-    │       └── sample_sme_transactions.csv   ← 421-row synthetic dataset (24 months)
-    ├── docs/
-    │   ├── architecture.md          ← Detailed architecture and module responsibilities
-    │   └── images/                  ← Architecture diagrams
-    ├── frontend/
-    │   ├── index.html               ← Dark-mode glassmorphic dashboard
-    │   ├── styles.css               ← CSS grid layout
-    │   └── app.js                   ← Chart.js charts · API calls · chat interface
-    ├── tests/
-    │   ├── conftest.py              ← Shared pytest fixtures
-    │   ├── test_etl.py              ← ETL pipeline tests
-    │   ├── test_forecast.py         ← ML forecasting tests
-    │   └── test_api.py              ← FastAPI endpoint tests
-    ├── .env.example                 ← Environment variable template
-    ├── CHANGELOG.md                 ← Full release history
-    ├── CONTRIBUTING.md              ← Contribution guide
-    ├── LICENSE                      ← MIT License
-    ├── requirements.txt
-    └── run.py                       ← Single-command launcher with .env auto-load
+AFIS/
+├── app/
+│   ├── main.py                  ← FastAPI app · route registration · static serving
+│   ├── llm_client.py            ← Provider-agnostic LLM client (Claude + offline fallback)
+│   ├── ai_agent/
+│   │   └── analyst.py           ← KPI computation · health report · chat Q&A
+│   ├── database/
+│   │   ├── db_manager.py        ← SQLite connection · schema init · governance audit logging
+│   │   └── schema.sql           ← Tables: transactions · forecasts · audit_logs
+│   ├── etl/
+│   │   └── ingestor.py          ← CSV parsing · validation · duplicate detection · anomaly flagging
+│   └── forecasting/
+│       └── model.py             ← Ridge regression · 12-month projection · confidence intervals
+├── data/
+│   └── examples/
+│       ├── sample_sme_transactions.csv   ← 421-row synthetic dataset (24 months)
+│       └── README.md                     ← Column schema and usage instructions
+├── docs/
+│   ├── architecture.md          ← Detailed architecture and module responsibilities
+│   └── images/                  ← Architecture diagrams
+├── frontend/
+│   ├── index.html               ← Dark-mode glassmorphic dashboard
+│   ├── styles.css               ← CSS grid layout
+│   └── app.js                   ← Chart.js charts · API calls · chat interface
+├── tests/
+│   ├── conftest.py              ← Shared pytest fixtures
+│   ├── test_etl.py              ← ETL pipeline tests
+│   ├── test_forecast.py         ← ML forecasting tests
+│   ├── test_api.py              ← FastAPI endpoint tests
+│   └── test_core.py             ← Integration tests
+├── .env.example                 ← Environment variable template
+├── CHANGELOG.md                 ← Full release history
+├── CONTRIBUTING.md              ← Contribution guide
+├── LICENSE                      ← MIT License
+├── requirements.txt
+└── run.py                       ← Single-command launcher with .env auto-load
 ```
 
 ---
 
 ## Contributing
 
-See [AFIS/CONTRIBUTING.md](AFIS/CONTRIBUTING.md) for guidelines on reporting issues, submitting code, and contributing datasets.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, submitting code, and contributing datasets.
 
 Areas where help is most needed:
+
 - ETL connectors for additional accounting formats (Xero XML, Wave CSV, FreshBooks)
 - Additional ML models for highly seasonal businesses (Prophet, LSTM)
 - Docker Compose setup for zero-dependency deployment
@@ -268,13 +276,14 @@ Areas where help is most needed:
 
 ## Changelog
 
-See [AFIS/CHANGELOG.md](AFIS/CHANGELOG.md) for the full release history.
+See [CHANGELOG.md](CHANGELOG.md) for the full release history.
 
 ### Latest: v0.2.1
+
 - Finalized README, updated badges, and revised architecture documentation
 
 ---
 
 ## License
 
-MIT License — see [AFIS/LICENSE](AFIS/LICENSE) for details. Free to use, adapt, and redistribute.
+MIT License — see [LICENSE](LICENSE) for details. Free to use, adapt, and redistribute.

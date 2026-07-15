@@ -33,8 +33,8 @@ or additional sample datasets, please open an Issue first to discuss format.
 ## Development Setup
 
 ```bash
-git clone https://github.com/Albertsfc/AFIS-Core-Framework.git
-cd AFIS-Core-Framework/AFIS
+git clone https://github.com/afild/AFIS.git
+cd AFIS
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
